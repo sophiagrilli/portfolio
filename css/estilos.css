@@ -2,6 +2,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    
 }
 #contacto{
     background-image: url(../images/fondo-contacto.png);
@@ -43,6 +44,10 @@ nav .active{
 }
 .nav-link{
 color: #282828;
+}
+.navbar{
+    padding: 8px 0px;
+    height: auto;
 }
 .btn{
     color: #370a6d;
