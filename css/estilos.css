@@ -292,6 +292,33 @@ nav .active {
     font-size: 14px;
     color: #6a6a6a;
 }
+#formacion h2{
+    color: #E20000;
+}
+#formacion h3{
+    color: #6A6A6A;
+    font-size: 18px;
+    font-weight: 600;
+}
+#formacion h4{
+    font-size: 17px;
+    color: #E20000;
+}
+#formacion h5{
+    font-size: 14px;
+    color: #6a6a6a;
+}
+
+
+.baw {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+}
+.baw:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter:grayscale(0%);
+}
+
 @media (max-width: 750px) {
 
     #contacto,
