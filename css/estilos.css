@@ -308,8 +308,24 @@ nav .active {
     font-size: 14px;
     color: #6a6a6a;
 }
-
-
+#idiomas h2{
+    font-size: 16px;
+}
+#idiomas h3{
+    font-size: 14px;
+}
+#idiomas .msj{
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+#img-idioma{
+    border-radius: 15px;
+}
+#idiomas .fa-solid{
+    color: white;
+    font-size: 80px;
+}
 .baw {
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
       filter: grayscale(100%);
