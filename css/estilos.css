@@ -105,18 +105,19 @@ nav .active {
     color: white;
 }
 /*Footers*/
-#contacto footer {
+#contacto footer, #inicio footer {
     color: white;
-
+    font-weight: 100;
 }
-#contacto footer a {
+#contacto footer a, #inicio footer a {
     color: white;
+    font-weight: 100;
 }
-#contacto footer .fa-github {
+#contacto footer .fa-github, #inicio footer .fa-github {
     font-size: 30px;
     color: white;
 }
-#contacto footer .fa-linkedin-in {
+#contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
     color: #ff4a49;
     background-color: white;
     font-size: 20px;
@@ -130,9 +131,11 @@ nav .active {
 }
 #proyectos footer, #sobre-mi footer{
     color: #ff4a49;
+    font-weight: 100;
 }
 #proyectos footer a, #sobre-mi footer a {
     color: #ff4a49;
+    font-weight: 100;
 }
 #proyectos footer .fa-github, #sobre-mi footer .fa-github {
     font-size: 30px;
@@ -151,33 +154,6 @@ nav .active {
     margin: 0 8px;
 }
 
-
-
-#inicio footer {
-    color: white;
-}
-
-#inicio footer a {
-    color: white;
-}
-
-#inicio footer .fa-github {
-    font-size: 30px;
-    color: white;
-}
-
-#inicio footer .fa-linkedin-in {
-    color: #ff4a49;
-    background-color: white;
-    font-size: 20px;
-    border: 0px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 8px 0 0 0;
-    border-radius: 80px;
-    margin: 0 8px;
-}
 
 #inicio home {
     color: white;
