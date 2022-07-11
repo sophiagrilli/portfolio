@@ -156,13 +156,7 @@ nav .active {
 }
 
 
-#inicio home {
-    color: white;
-    font-size: 17px;
-    border: 1px solid white;
-    border-radius: 50px;
-    font-weight: 600;
-}
+
 #inicio img {
     height: 400px;
 }
@@ -175,7 +169,7 @@ nav .active {
     height: 410px;
 }
 
-#inicio p {
+#inicio .home p {
     color: white;
     font-size: 17px;
     border: 1px white solid;
@@ -342,5 +336,34 @@ font-size: 14px;
         background-size: cover;
         background-repeat: no-repeat;
     }
-
+    #contacto footer, #inicio footer {
+        color: #ff4a49;
+        font-weight: 100;
+    }
+    #contacto footer a, #inicio footer a {
+        color: #ff4a49;
+        font-weight: 100;
+    }
+    #contacto footer .fa-github, #inicio footer .fa-github {
+        font-size: 30px;
+        color: #ff4a49;
+    }
+    #contacto footer .fa-linkedin-in, #inicio footer .fa-linkedin-in {
+        color: #ff4a49;
+        background-color: white;
+        font-size: 20px;
+        border: 0px;
+        height: 32px;
+        width: 32px;
+        padding: 8px 0 0 0;
+        border-radius: 80px;
+        margin: 0 8px;
+    }
+    #inicio .links, #contacto .links{
+        text-align: center;
+    }
+    #inicio .home p{
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
 }
