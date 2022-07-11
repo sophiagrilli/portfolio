@@ -359,7 +359,7 @@ font-size: 14px;
         border-radius: 80px;
         margin: 0 8px;
     }
-    #inicio .links, #contacto .links{
+    #inicio .links, #sobre-mi .links, #proyectos .links, #contacto .links{
         text-align: center;
     }
     #inicio .home p{
