@@ -75,11 +75,12 @@ nav .active {
 
 .btn-rojo {
     color: white;
-    background-color: #ff4a49;
+    background-color: #E20000;
     border: 0px;
     padding: 10px;
     text-decoration: none;
     border-radius: 15px;
+    font-weight: 100;
 }
 
 .btn-rojo:hover {
@@ -203,7 +204,9 @@ nav .active {
 .proyecto {
     background-color: white;
 }
-
+#proyectos main p{
+    font-size: 14px;
+}
 .proyecto h2 {
     font-size: 16px;
     color: white;
@@ -219,7 +222,9 @@ nav .active {
     font-size: 14px;
     height: 130px;
 }
-
+.proyectos p{
+font-size: 14px;
+}
 .inicio img {
     height: 212px;
 }
@@ -230,7 +235,7 @@ nav .active {
     display: block;
     background-color: #fff;
     border-radius: 50%;
-    vertical-align: middle;
+    padding: 10px;
 }
 #stack-tecnologico{
     background: linear-gradient(to right, rgba(184, 37, 20, 1) 0%, rgba(214, 52, 30, 1) 47%, rgba(240, 47, 23, 1) 70%, rgba(240, 47, 23, 1) 100%);   
@@ -328,13 +333,13 @@ nav .active {
     #contacto,
     #inicio {
         background-image: url(../images/fondo-proyectos.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
     #proyectos {
         background-image: url(../images/fondo-proyectos.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
 
